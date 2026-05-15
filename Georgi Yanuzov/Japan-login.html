@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Japan - the country of the rising sun : Login</title>
+        <link rel="stylesheet" href="Japan-login.css">
+    </head>
+    <body>
+        <main>
+            <div class="login">
+                <h1>Login</h1>
+                <h2>Email adress</h2>
+                <input type="email" id="email" class="line-input" placeholder="email@email.com">
+                <h2>Password</h2>                
+                <form class="password">
+                    <input type="password" id="password" class="line-input" placeholder="at least 8 charcters" minlength="8" required>
+                    <button type="button" id="password-show" onclick="togglePassword()">Show</button>
+                </form>
+                <button type="submit" id="submit">Welcome back</button>
+                <button id="back" onclick="document.location.href='Japan-registration.html'">Back</button>
+            </div>
+        </main>
+        <script src="Japan-login.js"></script>
+    </body>
+</html>
